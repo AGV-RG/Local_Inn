@@ -1,9 +1,33 @@
-# Local_Inn - SLAM Team
-## VAE for POI Anomaly Detection (PyTorch)
+# local_inn
 
-A PyTorch implementation of the Variational Autoencoder from the paper "[Learning Representations of POIs for Anomaly Detection](https://ppms.cit.cmu.edu/media/project_files/Mangharam_Rahul_441.pdf)" for anomaly detection in POI data.
+Prerequisites
+- Python 3.11 or higher
 
-Author's Implementation - https://github.com/zzangupenn/Local_INN
+```
+source setup/setup.bash
+```
 
----
+Add your rosbag to `data/`
+
+Commands - 
+
+Dataloader (Convert from rosbag)
+```
+python dataloader.py <EXP_NAME> <ROSBAG_NAME>
+```
+
+Preprocessing
+```
+python dataprocess.py <EXP_NAME>
+```
+
+Training
+```
+python model.py <EXP_NAME>
+```
+
+Analysis
+```
+python analyse_results <EXP_NAME>
+```
 

@@ -1,0 +1,6 @@
+local-inn/*
+results
+data/*
+__pycache__
+lidar_analysis.png
+error_map.png
