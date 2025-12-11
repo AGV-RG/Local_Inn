@@ -31,3 +31,4 @@ Analysis
 python analyse_results <EXP_NAME>
 ```
 
+![Localisation Results](/images/error_map.png)
