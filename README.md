@@ -1,5 +1,6 @@
-# local_inn
+# Local_Inn
 
+## Setup
 Prerequisites
 - Python 3.11 or higher
 
@@ -9,7 +10,7 @@ source setup/setup.bash
 
 Add your rosbag to `data/`
 
-Commands - 
+## Commands
 
 Dataloader (Convert from rosbag)
 ```
@@ -30,5 +31,8 @@ Analysis
 ```
 python analyse_results <EXP_NAME>
 ```
-
+## Results
 ![Localisation Results](/images/error_map.png)
+
+
+Author's Implementation - https://github.com/zzangupenn/Local_INN
