@@ -10,6 +10,7 @@ class Local_INN(nn.Module):
         super().__init__()
         self.device = device
         self.inn_input_dim = int(60)
+        #directlyIndented
         self.cond_input_dim = 6
         self.cond_out_dim = 12 
         self.model = self.build_inn()
